@@ -1,17 +1,18 @@
 {
   "main.css": "static/css/main.e809ab45.css",
   "main.css.map": "static/css/main.e809ab45.css.map",
-  "main.js": "static/js/main.a9fbefb6.js",
-  "main.js.map": "static/js/main.a9fbefb6.js.map",
+  "main.js": "static/js/main.1c2585ed.js",
+  "main.js.map": "static/js/main.1c2585ed.js.map",
   "static/media/background.jpg": "static/media/background.09d2af84.jpg",
   "static/media/bullbear.png": "static/media/bullbear.cb91903f.png",
   "static/media/coming_soon.png": "static/media/coming_soon.6d011dc0.png",
+  "static/media/coming_soon_ka.png": "static/media/coming_soon_ka.955d44c6.png",
   "static/media/filler.jpg": "static/media/filler.b1967109.jpg",
   "static/media/filler2.jpg": "static/media/filler2.44b77346.jpg",
   "static/media/filler3.jpg": "static/media/filler3.a4cb7456.jpg",
   "static/media/filler4.jpg": "static/media/filler4.17d0118c.jpg",
   "static/media/filler5.jpg": "static/media/filler5.fc69fc91.jpg",
-  "static/media/filler6.jpg": "static/media/filler6.04bd6c5a.jpg",
+  "static/media/filler6.jpg": "static/media/filler6.6d7b6342.jpg",
   "static/media/fontawesome-webfont.eot?v=4.7.0": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
@@ -19,5 +20,6 @@
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/logo.png": "static/media/logo.846075c3.png",
   "static/media/logo_bw.png": "static/media/logo_bw.891ab379.png",
-  "static/media/logo_m.png": "static/media/logo_m.7fb1d76a.png"
+  "static/media/logo_m.png": "static/media/logo_m.c5a53af0.png",
+  "static/media/prameyaka_ka.png": "static/media/prameyaka_ka.833c7e7d.png"
 }

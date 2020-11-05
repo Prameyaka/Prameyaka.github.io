@@ -1,0 +1,32 @@
+
+Custom tuning will disable platforms Exit tuning. Tune only those Meters if you understood propery. Any wrong tuning may Exit positions immediately or never gets activated.
+
+There are three simple types of exit tuner setting available, These three meters can be combined as logical AND but you need to be carefull.
+
+	1. Exit Limits : This meter sets the lower and upper limit for the Exit. Exit is activated when gain goes below Lower Limit or above Upper Limit. Lower Exit Limit is Stop Loss setting and Upper Exit Limit is profit booking. 
+	
+	Examples : 
+	
+		Book profit at 5% else 2% Stop Loss
+				Lower Exit Limit -2%
+				Upper Exit Limit : 5%
+				Assurance :OFF
+				Trailing StopLoss : OFF
+			
+
+	2. Assurance : This meter sets Exit with assurity of percentage of position's unrealized gain. If any point of time you think a position made a enough profit, but profit can be much more if you wait till market closes, if you want to make sure some percentage of profit safe, if price moves unfacvorable direction. If you set assurance at 50%, then position will be exited when profit goes less than 50% of maximum change in unrealized gain.Incase of Tune All, assurance is applied to individual position based on its gain range.
+	
+	assurance = gain / ( maxGain - minGain )
+		
+	Example : let you created long position at Rs.300, which goes down to  -1% ( Rs. 297 ), then it jumps back trending upward . If you set Assurance of 75%, then eXit will be triggered to assure 75% upward trend from min ( Rs. 297 ). This Meter is useful while tuning Days Trade(Tune All) where overall Return On Investment(gain*100/allocated) can even range up to 30% and Trailing stoploss can not be set efficiently. Similarly Assurance not useful when gain is small ( &lt 1%) which may trigger small trades. When you setting the Assurance you need to set some minimal trailing stoploss ( like 0.5% or 1% ) to avoid small trades.
+
+	3. Trailing Stop Loss : Stop loss trails in the direction of your gain, if price moves in the favourable direction. Position will be Exited when gain goes below the percetage you set from max gain. Incase of Tune All, Trailing Stop Loss is applied to individual position based on its gain range.
+
+Examples :
+
+	Book profit at 10% with 2% Stop Loss
+			Lower Exit Limit : -2%
+			Upper Exit Limit : 10%
+			Assurance 		 : OFF
+			Trailing StopLoss: OFF
+			
