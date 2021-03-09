@@ -1,12 +1,9 @@
 {
   "main.css": "static/css/main.e809ab45.css",
   "main.css.map": "static/css/main.e809ab45.css.map",
-  "main.js": "static/js/main.f7fbe1e2.js",
-  "main.js.map": "static/js/main.f7fbe1e2.js.map",
-  "static/media/15.jpg": "static/media/15.d5039597.jpg",
-  "static/media/16.jpg": "static/media/16.da66ea21.jpg",
+  "main.js": "static/js/main.3b6ca56a.js",
+  "main.js.map": "static/js/main.3b6ca56a.js.map",
   "static/media/17.png": "static/media/17.8a1c5b9e.png",
-  "static/media/22.jpg": "static/media/22.a2bb0a5b.jpg",
   "static/media/about2.jpeg": "static/media/about2.5b4f8b83.jpeg",
   "static/media/background.jpg": "static/media/background.09d2af84.jpg",
   "static/media/bullbear.png": "static/media/bullbear.cb91903f.png",
@@ -27,6 +24,6 @@
   "static/media/logo_bw.png": "static/media/logo_bw.891ab379.png",
   "static/media/logo_m.png": "static/media/logo_m.c5a53af0.png",
   "static/media/nse.png": "static/media/nse.94c46a43.png",
-  "static/media/prameyaka_ka.png": "static/media/prameyaka_ka.833c7e7d.png",
+  "static/media/prameyaka_ka_t.png": "static/media/prameyaka_ka_t.ee4ecc05.png",
   "static/media/zerodha.svg": "static/media/zerodha.6b87af2b.svg"
 }
